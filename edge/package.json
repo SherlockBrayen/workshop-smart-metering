@@ -1,0 +1,22 @@
+{
+  "name": "workshop-edge",
+  "version": "1.0.0",
+  "description": "Edge Simulator - 1 gateway, 5 sensors untuk Workshop Demo",
+  "private": true,
+  "scripts": {
+    "start": "node index.js",
+    "test": "node --test tests/properties/batchIdUniqueness.test.js"
+  },
+  "dependencies": {
+    "ethers": "^6.13.0",
+    "libsodium-wrappers": "^0.7.16",
+    "axios": "^1.7.0",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "fast-check": "^4.7.0"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

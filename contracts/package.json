@@ -1,0 +1,27 @@
+{
+  "name": "workshop-contracts",
+  "version": "1.0.0",
+  "description": "Smart contract EnergyPlatform untuk Workshop Demo Smart Metering Blockchain",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "compile": "npx hardhat compile",
+    "test": "npx hardhat test",
+    "deploy": "npx hardhat run scripts/deploy.js --network sepolia"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-ethers": "^4.0.9",
+    "@nomicfoundation/hardhat-mocha": "^3.0.17",
+    "@nomicfoundation/hardhat-toolbox": "^7.0.0",
+    "chai": "^6.2.2",
+    "ethers": "^6.16.0",
+    "hardhat": "^3.4.1",
+    "mocha": "^11.7.5"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

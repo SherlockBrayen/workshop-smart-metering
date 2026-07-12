@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+.npm-cache/
+
+# Environment files
+.env
+
+# Private keys (except .gitkeep)
+keys/*.key
+backend/keys/*.key
+!keys/.gitkeep
+!backend/keys/.gitkeep
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+
+# Logs
+*.log
+logs/
+
+# Build output
+dist/
+build/
+
+# Docker
+docker-compose.override.yml
+
+# Hardhat
+cache/
+artifacts/
+
+# Coverage
+coverage/

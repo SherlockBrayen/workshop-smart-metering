@@ -1,0 +1,8 @@
+{
+  "address": "0x0000000000000000000000000000000000000000",
+  "abi": [],
+  "network": "sepolia",
+  "deployedAt": "",
+  "deployer": "",
+  "_note": "This file will be populated after deploying the contract with: npx hardhat run scripts/deploy.js --network sepolia"
+}
